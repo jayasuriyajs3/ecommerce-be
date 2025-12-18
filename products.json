@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "Air Max Pro",
+    "price": "8999",
+    "description": "Premium running shoes with advanced cushioning",
+    "image": "src/images/pro1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Urban Flex",
+    "price": "6999",
+    "description": "Lightweight casual sneakers for everyday wear",
+    "image": "src/images/pro2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Trail Runner",
+    "price": "7999",
+    "description": "Durable off-road running shoes",
+    "image": "src/images/pro2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Classic White",
+    "price": "5999",
+    "description": "Timeless white sneakers perfect for any outfit",
+    "image": "src/images/pro4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Basketball Elite",
+    "price": "9999",
+    "description": "Professional basketball shoes with ankle support",
+    "image": "src/images/pro5.jpg"
+  }
+,
+  {
+    "id": 6,
+    "name": "Nike Shoe",
+    "price": "2499",
+    "description": "Unlock your full potential",
+    "image": "src/images/pro6.jpg"
+  }
+]
