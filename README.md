@@ -274,49 +274,6 @@ const removeFromCart = async (productId) => {
 };
 ```
 
----
-
-## 📝 Task Completion Checklist
-
-✅ **Task 1:** Create APIs for cart page using file processing
-- [x] Created `cart.json` for cart data storage
-- [x] Implemented GET, POST, PUT, DELETE methods for cart
-- [x] Cart updates persist to `cart.json` file
-
-✅ **Task 2:** Integrate products API with frontend
-- [x] Created `products.json` with initial product data
-- [x] Implemented GET, POST, PUT, DELETE methods for products
-- [x] Admin page (AddProductForm) posts to API
-- [x] Products listing page fetches from API
-- [x] Product additions update `products.json` file
-
-✅ **Task 3:** Integrate cart API with frontend
-- [x] Cart page fetches from `/cart` endpoint
-- [x] Add to cart updates `cart.json`
-- [x] Quantity updates persist to JSON file
-- [x] Delete operations remove from JSON file
-
----
-
-## 🛠️ Technologies Used
-
-- **Express.js** - Web framework
-- **fs (File System)** - File-based database using JSON
-- **CORS** - Cross-Origin Resource Sharing
-- **Node.js** - Runtime environment
-
----
-
-## 📌 Notes
-
-- This backend uses **file-based storage** (JSON files) instead of a traditional database
-- Products and cart data persist across server restarts
-- CORS is enabled for frontend integration
-- All CRUD operations (Create, Read, Update, Delete) are implemented
-- Error handling included for invalid requests
-
----
-
 ## 🎯 Future Enhancements
 
 - Add authentication/authorization
